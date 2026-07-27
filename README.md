@@ -112,3 +112,8 @@ Voice recording uses your browser's built-in speech recognition. Depending on th
 **Editing content.** All content lives in three constants near the top of the `<script>` block. `QUESTIONS` holds every question — each entry needs an `id`, `category`, `competency` (`modeling`, `strategy`, or `communication`), `difficulty`, `title`, `conversational` answer, `deepDive` answer, and (for technical questions) a `keywords` array; behavioral questions instead set `type: "behavioral"`. `FRAMEWORKS` holds the six framework cards. `SCORING` controls the point math (base score, length bonus, keyword points, filler penalty). Categories and filters render automatically from the data — adding a question in a new category creates the filter button for you.
 
 **Storage format.** Progress is stored under the key `eccles_cf_playbook_v2` as JSON containing per-question attempt records (score log, best, recent average, self-ratings, filler history) plus a global history of the last 12 scores. Version 1 progress is migrated automatically on first load. Note for the v1→v2 transition: v1 scores were computed under a more generous formula, so migrated scores will read slightly high until a few new attempts wash them out.
+
+---
+
+Developed by Cory Burk, Senior Manager, Program Management · Full-Time MBA Program · David Eccles School of Business.
+© 2026 University of Utah, David Eccles School of Business. All rights reserved.
