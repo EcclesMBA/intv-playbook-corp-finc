@@ -6,7 +6,7 @@ A self-contained interview preparation tool for MBA candidates pursuing corporat
 
 ---
 
-**Live Playbook ▶ [Intv Playbook – Corporate Finance (vC)](https://coryjburk.github.io/intv-playbook-finc_ldp/)**
+**Live Playbook ▶ [Intv Playbook – Corporate Finance (vC)](https://ecclesmba.github.io/intv-playbook-finc_ldp/)**
 
 _The entire application is a single HTML file. There is no build step, no server, and no account — it runs completely in your browser, and your practice data never leaves your device._
 
